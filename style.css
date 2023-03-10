@@ -115,12 +115,16 @@ span::before {
 	justify-content: space-between;
 	align-items: flex-start;
 }
-
 .nav-logo {
+	align-items: flex-start;
+}
+
+.nav-logo a {
 	font-weight: 300;
 	margin-top: -0.2em;
 	text-transform: uppercase;
-	align-items: flex-start;
+	text-decoration: none;
+	color: #fff;
 	font-size: 120px;
 }
 

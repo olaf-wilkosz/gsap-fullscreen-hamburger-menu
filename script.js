@@ -15,11 +15,11 @@ const animateOpenNav = () => {
 		'-=0.1'
 	);
 
-	tl.from('.flex > div', 0.4, {
+	tl.from('.flex > div > a', 0.4, {
 		opacity: 0,
 		y: 10,
 		stagger: {
-			amount: 0.4,
+			amount: 0.1,
 		},
 	});
 
