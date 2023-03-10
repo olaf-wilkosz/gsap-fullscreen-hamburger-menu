@@ -61,8 +61,11 @@ span::before {
 	background-color: #000;
 	display: inline-block;
 	position: absolute;
-	top: 50%;
 	transition: all 0.3s;
+}
+
+span {
+	top: 50%;
 }
 
 span::before {
@@ -82,7 +85,7 @@ span::before {
 	background-color: #fff;
 }
 
-.active:hover span::before {
+#menu-toggle-btn:hover span::before {
 	top: unset;
 }
 
@@ -139,10 +142,10 @@ span::before {
 
 .nav-link a {
 	position: relative;
-	top: 45px;
+	top: 60px;
 	text-decoration: none;
 	color: #fff;
-	font-size: 60px;
+	font-size: 45px;
 	font-weight: lighter;
 }
 
